@@ -1,4 +1,4 @@
-// challenge https://leetcode.com/problems/counter-ii/
+// Challenge https://leetcode.com/problems/counter-ii/
 
 /**
  * @param {integer} init
