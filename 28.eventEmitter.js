@@ -22,12 +22,12 @@ class EventEmitter {
             unsubscribe: () => {
                 const index = listeners.indexOf(callback);
                 if (index !== -1) {
-                listeners.splice(index, 1);
+                    listeners.splice(index, 1);
                 }
             }
         };
     }
-    
+
     /**
      * @param {string} event
      * @param {Array} args
